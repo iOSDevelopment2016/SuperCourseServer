@@ -40,7 +40,7 @@ class VideoList{
                       	$condition_les_baseinfo['lessections_id']=$result_temp_sections[$j]['lessections_id'];
                       	//第三级数据
                       	$result_temp_baseinfo=$sc_les_baseinfo->where($condition_les_baseinfo)->select();
-                        dump($result_temp_baseinfo);
+                        // dump($result_temp_baseinfo);
                         $result_les_sections[$i]['lesarr'][$j]=$result_temp_baseinfo;
                         //var_dump( $result_les_sections);
                      }
@@ -52,8 +52,8 @@ class VideoList{
 			   $this->result[Constants::KEY_msg]='错误代码：201503131248。错误信息：请求登录过程中查询数据库出错。';
 			}
 			$this->result[Constants::KEY_data]['Lesarr']=$result_les_sections;
-			//echo json_encode($result_les_baseinfo,JSON_UNESCAPED_SLASHES);
-			//echo json_encode($this->result,JSON_UNESCAPED_SLASHES);
+			// echo json_encode($result_les_base info,JSON_UNESCAPED_SLASHES);
+			echo json_encode($this->result,JSON_UNESCAPED_SLASHES);
 		}
 }
 /*
