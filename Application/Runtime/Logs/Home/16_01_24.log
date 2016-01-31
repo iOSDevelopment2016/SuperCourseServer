@@ -1,0 +1,32 @@
+[ 2016-01-24T19:15:41+08:00 ] ::1 /SV/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, second array member is not a valid method /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-01-24T19:15:47+08:00 ] ::1 /SV/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, second array member is not a valid method /Applications/XAMPP/xamppfiles/htdocs/SV/Application/Home/Controller/IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+

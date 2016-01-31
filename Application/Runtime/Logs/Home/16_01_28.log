@@ -1,0 +1,866 @@
+[ 2016-01-28T09:00:04+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116063730' LIMIT 1   [ RunTime:0.0047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-01-28T09:00:11+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116063730' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-01-28T12:03:54+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, string given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003078s ]
+
+[ 2016-01-28T12:04:04+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, string given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-01-28T12:04:36+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, string given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-01-28T12:04:39+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, string given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-01-28T12:05:05+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, string given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-01-28T12:05:26+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, string given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-01-28T12:05:54+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-01-28T12:07:07+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-01-28T12:07:31+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-01-28T12:08:01+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-01-28T12:08:03+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-01-28T12:08:49+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, string given /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-01-28T12:09:01+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-01-28T12:09:23+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+
+[ 2016-01-28T12:09:43+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+
+[ 2016-01-28T12:11:45+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+
+[ 2016-01-28T12:11:48+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+
+[ 2016-01-28T12:17:37+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116063730' LIMIT 1   [ RunTime:0.0043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-01-28T12:17:41+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116063730' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-01-28T12:17:45+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116063730' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-01-28T13:37:43+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-01-28T14:29:46+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0021s ]
+ERR: 1052:Column 'lesgrouping_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `sc_les_sections` INNER JOIN sc_les_grouping ON sc_les_sections.lesgrouping_id = sc_les_grouping.lesgrouping_id INNER JOIN sc_les_baseinfo ON sc_les_sections.lessections_id = sc_les_baseinfo.lessections_id  WHERE `lesgrouping_id` = '0000' 
+ERR: 1052:Column 'lesgrouping_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `sc_les_sections` INNER JOIN sc_les_grouping ON sc_les_sections.lesgrouping_id = sc_les_grouping.lesgrouping_id INNER JOIN sc_les_baseinfo ON sc_les_sections.lessections_id = sc_les_baseinfo.lessections_id  WHERE `lesgrouping_id` = '0000' 
+
+[ 2016-01-28T14:32:09+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0024s ]
+ERR: 1052:Column 'lesgrouping_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `sc_les_sections` LEFT JOIN sc_les_grouping ON sc_les_sections.lesgrouping_id = sc_les_grouping.lesgrouping_id INNER JOIN sc_les_baseinfo ON sc_les_sections.lessections_id = sc_les_baseinfo.lessections_id  WHERE `lesgrouping_id` = '0000' 
+ERR: 1052:Column 'lesgrouping_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `sc_les_sections` LEFT JOIN sc_les_grouping ON sc_les_sections.lesgrouping_id = sc_les_grouping.lesgrouping_id INNER JOIN sc_les_baseinfo ON sc_les_sections.lessections_id = sc_les_baseinfo.lessections_id  WHERE `lesgrouping_id` = '0000' 
+
+[ 2016-01-28T14:39:32+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116063730' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-01-28T14:39:44+08:00 ] 127.0.0.1 /superCourse/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116063730' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-01-28T14:45:20+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+
+[ 2016-01-28T14:45:52+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0030s ]
+ERR: Think\Model:condition方法不存在！
+
+[ 2016-01-28T14:46:19+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-01-28T15:03:26+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: lessections_id /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: lessections_id /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = null  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-01-28T15:04:04+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-01-28T15:05:09+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-01-28T15:05:51+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-01-28T15:06:53+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-01-28T15:18:43+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-01-28T15:20:31+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-01-28T15:21:14+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-01-28T15:21:23+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-01-28T15:47:17+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-01-28T15:47:21+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-01-28T15:49:11+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+ERR: 1146:Table 'sc.sclessections' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sclessections`
+ERR: 1146:Table 'sc.sclessections' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sclessections`
+
+[ 2016-01-28T15:49:28+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-01-28T15:55:29+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-01-28T16:02:57+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-01-28T16:11:04+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: result_array /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-01-28T16:14:43+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: result_array /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-01-28T16:16:29+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-01-28T16:24:45+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-01-28T16:25:30+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-01-28T16:36:51+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 29 行.
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 31 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = null  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-01-28T16:39:44+08:00 ] ::1 /superCourse/index.php/Home/Index/index4ios?method=VideoList&param[data]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Undefined index: method /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: param /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/superCourse/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 29 行.
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/superCourse/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 31 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = null  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
