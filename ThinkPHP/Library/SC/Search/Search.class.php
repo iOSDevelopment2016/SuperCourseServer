@@ -24,31 +24,35 @@ class Search{
 		$table3=M('sc_les_subtitle');
 		$table5=M('sc_stu_lessubtitle');
 		$table6=M('sc_les_sections');
+		//dump($this->search_info);
 		$searchs="%".$this->search_info."%";
 		$condition1['les_name']=array('like',$searchs);
 		$condition2['hot_title']=array('like',$searchs);
 		$condition3['subtitle']=array('like',$searchs);
 		//var_dump($this->stuid);
 		$condition5['stu_id']=$this->stuid;
-		$condition5['subtitle']=array('like',$searchs);
+		$condition6['subtitle']=array('like',$searchs);
 		$data1=$table1->where($condition1)->select();
+		//dump($data1);
 		$data2=$table2->where($condition2)->select();
 		$data3=$table3->where($condition3)->select();
 		//var_dump($data3);
 		//$data5=$table5->where("stu_id=$this->stuid AND subtitle like "."'"."$searchs"."'"." ")->select();
-		$data5=$table5->where($condition5)->select();
-		//var_dump($condition5);
+		$data5=$table5->where($condition6)->where($condition5)->select();
+		//var_dump($condition6);
 		$les_id1=array();
+		//dump($les_id1);
 		for ($i=0; $i < count($data1); $i++) { 
 			$les_id=$data1[$i]['les_id'];
 			//$tump=$les_id['les_id'];
+			//dump($les_id);
 			if($les_id==null){
 				//echo "不存在";
 			}else{
 				array_push($les_id1, $les_id);	
 			}	
 		}
-		//var_dump($les_id1);
+		//dump($les_id1);
 		for ($i=0; $i < count($data2); $i++) { 
 			$les_id=$data2[$i]['les_id'];
 			//$tump=$les_id['les_id'];
@@ -58,7 +62,7 @@ class Search{
 				array_push($les_id1, $les_id);	
 			}	
 		}
-		//var_dump($les_id1);
+		//dump($les_id1);
 		for ($i=0; $i < count($data3); $i++) { 
 			$les_id=$data3[$i]['les_id'];
 			//$tump=$les_id['les_id'];
@@ -68,7 +72,7 @@ class Search{
 				array_push($les_id1, $les_id);	
 			}	
 		}
-		//var_dump($les_id1);
+		//dump($les_id1);
 		for ($i=0; $i < count($data5); $i++) { 
 			$les_id=$data5[$i]['les_id'];
 			//$tump=$les_id['les_id'];
@@ -78,13 +82,15 @@ class Search{
 				array_push($les_id1, $les_id);	
 			}	
 		}
-		//var_dump($les_id1);
-		$les_id1=array_unique($les_id1);//去掉重复数据；
-		//var_dump($les_id1);
+		//dump($les_id1);
+		$les_id2=array_unique($les_id1);//去掉重复数据；
+		//dump($les_id2);
+		//echo count($les_id1);
 		 $result_arr0= array();
      	//var_dump(count($les_id1));
      	for ($i=0; $i <count($les_id1) ; $i++) {
-    		$condition4['les_id']=$les_id1[$i];
+    		$condition4['les_id']=$les_id2[$i];
+    		//dump($condition4);
    			$data4=$table1->where($condition4)->select();
    			for ($j=0; $j < count($data4); $j++) { 
    				$condition5['lessections_id']=$data4[$j]['lessections_id'];
@@ -94,15 +100,16 @@ class Search{
    				}else{
    					//echo null;
    				}
-   				//echo "<pre>";
-   			    //dump($data5);  				
+   				echo "<pre>";
+   			    //dump($data4);  				
    			}
      	}
      	 $result_arr1= array();
      	//var_dump(count($les_id1));
      	for ($i=0; $i <count($les_id1) ; $i++) {
-    		$condition4['les_id']=$les_id1[$i];
+    		$condition4['les_id']=$les_id2[$i];
    			$data4=$table1->where($condition4)->select();
+   			//dump($data4);
    			for ($j=0; $j < count($data4); $j++) { 
    				$condition5['lessections_id']=$data4[$j]['lessections_id'];
    				$data5=$table6->where($condition5)->select();
