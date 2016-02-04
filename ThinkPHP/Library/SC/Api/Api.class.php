@@ -58,10 +58,19 @@ class Api{
 	// 	$result=$saveNote->run();
 	// 	echo $result;
 	// }
+	public function Getintroduction($param){
+		//echo "hello";
+		import('SC.getintroduction.getintroduction');
+		$getin=new Getintroduction($param);
+		$result=$getin->run();
+		echo $result;
+	}
 	public function History($param){
+		//echo "hello";
 		import('SC.History.History');
 		$history=new History($param);
 		$result=$history->run();
 		echo $result;
 	}
+
 }
