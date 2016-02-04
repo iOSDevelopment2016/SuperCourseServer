@@ -63,7 +63,7 @@ class VideoList{
 			$t_sections=M('sc_les_sections');
 			$t_lessons=M('sc_les_baseinfo');
 			$tump1=$this->permissionid();
-			dump($tump1);
+			//dump($tump1);
 			$data_groups=$t_groups->select(); //获得分组列表
 			if($datagrouping!==false){
 				for ($i=0; $i < count($data_groups); $i++) { 
@@ -78,8 +78,8 @@ class VideoList{
                         	$data_lessions[$k]["permission"] = '否';
                         	for ($g=0; $g <count($tump1) ; $g++) { 
                         		if($data_lessions[$k]['les_id']==$tump1[$g]){
-                        			dump($data_lessions[$k]['les_id']);
-                        			dump($tump1[$g]);
+                        			//dump($data_lessions[$k]['les_id']);
+                        			//dump($tump1[$g]);
                         			$data_lessions[$k]["permission"] = '是';
                         		}
                         		elseif ($tump1[$g]=="*") {
@@ -88,7 +88,7 @@ class VideoList{
                         	}
                         	
                         }
-                        dump($data_lessions);
+                        //dump($data_lessions);
                         $data_sections[$j]['lesarr']=$data_lessions;
                       	$data_lessions=$t_lessons->where($condition_lessons)->select();
                         $data_sections[$j]['lesarr']=$data_lessions;
