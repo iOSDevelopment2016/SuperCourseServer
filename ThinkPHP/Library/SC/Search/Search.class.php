@@ -90,7 +90,7 @@ class Search{
      	//var_dump(count($les_id1));
      	for ($i=0; $i <count($les_id1) ; $i++) {
     		$condition4['les_id']=$les_id2[$i];
-    		dump($condition4);
+    		//dump($condition4);
    			$data4=$table1->where($condition4)->select();
    			for ($j=0; $j < count($data4); $j++) { 
    				$condition5['lessections_id']=$data4[$j]['lessections_id'];
