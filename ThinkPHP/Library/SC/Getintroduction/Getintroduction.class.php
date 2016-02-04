@@ -26,22 +26,23 @@ class Getintroduction{
 			array_push($pregroupidarr, $pregroupid);
 		}
 		//dump($pregroupidarr);
-		$result_des=array();
+		//$result_des=array();
 		for ($i=0; $i < count($pregroupidarr); $i++) { 
 			$condition1['preknowledge_id']=$pregroupidarr[$i];
 			$prek_desdata=$prek_des->where($condition1)->select();
-			array_push($result_des, $prek_desdata);
+			//dump($prek_desdata);
+			//array_push($result_des, $prek_desdata);
 		}
 		//dump($result_des);
 		$ehdata=$eh_id->where($condition)->select();
 		//dump($ehdata);
 		$alldata=array();
 		//array_push($alldata, $exinfodata,$result_des,$ehdata);
-		//dump($alldata);
+		//dump($result_des);
 		if($exinfodata!==null){
 			$this->result[Constants::KEY_status]=Constants::KEY_OK;
 			$this->result[Constants::KEY_data]['har_des']=$exinfodata;
-			$this->result[Constants::KEY_data]['knowledge']=$result_des;
+			$this->result[Constants::KEY_data]['knowledge']=$prek_desdata;
 			$this->result[Constants::KEY_data]['willknow']=$ehdata;
 		}else{
 			$this->result[Constants::KEY_status]=constants::KEY_FAIL;
