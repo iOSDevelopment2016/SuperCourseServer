@@ -15,9 +15,7 @@ class Login{
 		Constants::KEY_data =>array()
 		);
 	}
-   //http://localhost/SV/?method=Login&param={"data":{"phone":"13800001","password":"1111"}}
 	public function run(){
-		//echo "use RUN()";
 		$User=M('sc_stu_info');
 		$condition ['phone'] = $this->user_phone;
 		$data=$User->where($condition)->find();
