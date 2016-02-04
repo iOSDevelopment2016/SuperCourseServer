@@ -38,4 +38,18 @@ class Api{
 		$result=$userReg->run();
 		echo $result;
 	}
+	public function Getintroduction($param){
+		//echo "hello";
+		 import('SC.getintroduction.getintroduction');
+		 $getin=new Getintroduction($param);
+		 $result=$getin->run();
+		 echo $result;
+	}
+	public function GetStudentPlayLog($param){
+		 import('SC.PlayLog.GetStudentPlayLog');
+		 $student_play_log=new GetStudentPlayLog($param);
+		 $result=$student_play_log->run();
+		 echo $result;
+	}
+
 }
