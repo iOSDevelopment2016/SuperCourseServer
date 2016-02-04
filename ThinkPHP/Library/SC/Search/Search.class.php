@@ -86,14 +86,15 @@ class Search{
 		$les_id2=array_unique($les_id1);//去掉重复数据；
 		//dump($les_id2);
 		//echo count($les_id1);
-		 $result_arr0= array();
+		$result_arr0= array();
      	//var_dump(count($les_id1));
      	for ($i=0; $i <count($les_id1) ; $i++) {
     		$condition4['les_id']=$les_id2[$i];
-    		//dump($condition4);
-   			$data4=$table1->where($condition4)->select();
+   			$data4=$table1->where($condition4)->find();
+   			//echo "<pre>";
+   			//dump($data4); 
    			for ($j=0; $j < count($data4); $j++) { 
-   				$condition5['lessections_id']=$data4[$j]['lessections_id'];
+   				$condition5['lessections_id']=$data4['lessections_id'];
    				$data5=$table6->where($condition5)->select();
    				if($data5[$j]['lesgrouping_id']=='0000'){
    					array_push($result_arr0, $data4);
@@ -101,17 +102,18 @@ class Search{
    					//echo null;
    				}
    				//echo "<pre>";
-   			    //dump($data4);  				
+   			    // dump($data4);  				
    			}
      	}
+     	 //dump($result_arr0);
      	 $result_arr1= array();
      	//var_dump(count($les_id1));
      	for ($i=0; $i <count($les_id1) ; $i++) {
     		$condition4['les_id']=$les_id2[$i];
-   			$data4=$table1->where($condition4)->select();
+   			$data4=$table1->where($condition4)->find();
    			//dump($data4);
    			for ($j=0; $j < count($data4); $j++) { 
-   				$condition5['lessections_id']=$data4[$j]['lessections_id'];
+   				$condition5['lessections_id']=$data4['lessections_id'];
    				$data5=$table6->where($condition5)->select();
    				if($data5[$j]['lesgrouping_id']=='0001'){
    					array_push($result_arr1, $data4);
