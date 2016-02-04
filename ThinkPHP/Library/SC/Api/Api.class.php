@@ -38,7 +38,6 @@ class Api{
 		$result=$userReg->run();
 		echo $result;
 	}
-<<<<<<< HEAD
 	public function Getintroduction($param){
 		//echo "hello";
 		 import('SC.getintroduction.getintroduction');
@@ -53,8 +52,7 @@ class Api{
 		 echo $result;
 	}
 
-}
-=======
+
 	public function GetStudentNote($param){
 		import('SC.Note.GetStudentNote');
 		$getNote=new GetStudentNote($param);
@@ -75,13 +73,6 @@ class Api{
 	// 	$result=$saveNote->run();
 	// 	echo $result;
 	// }
-	public function Getintroduction($param){
-		//echo "hello";
-		import('SC.getintroduction.getintroduction');
-		$getin=new Getintroduction($param);
-		$result=$getin->run();
-		echo $result;
-	}
 	public function History($param){
 		//echo "hello";
 		import('SC.History.History');
@@ -91,4 +82,3 @@ class Api{
 	}
 
 }
->>>>>>> c5fab4272eb4880bdea04886df41a177135cbb7b
