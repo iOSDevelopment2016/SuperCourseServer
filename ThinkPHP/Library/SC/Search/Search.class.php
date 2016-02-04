@@ -100,7 +100,7 @@ class Search{
    				}else{
    					//echo null;
    				}
-   				echo "<pre>";
+   				//echo "<pre>";
    			    //dump($data4);  				
    			}
      	}
