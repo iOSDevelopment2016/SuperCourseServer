@@ -62,7 +62,7 @@ class Api{
 		$result=$DeleteSubTitle->run();
 		echo $result;
 	}
-}
+
 	public function Getintroduction($param){
 		//echo "hello";
 		 import('SC.getintroduction.getintroduction');

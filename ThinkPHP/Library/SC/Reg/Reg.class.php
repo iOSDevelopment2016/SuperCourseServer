@@ -20,6 +20,7 @@ class Reg{
 		$this->user_phone = $param['phone'];
 		$this->user_password = md5('0000'.'IOSSC');
 		$this->user_stu_id=$this->uuid();
+		$this->user_stu_grouping='1111';
 		$this->result = array(
 		Constants::KEY_status =>"",
 		Constants::KEY_msg =>"",
@@ -39,6 +40,7 @@ class Reg{
 					$info['phone'] = $this->user_phone ;
 					$info['password'] = $this->user_password;
 					$info['stu_id'] =$this->user_stu_id;
+					$info['stugrouping_id']=$this->user_stu_grouping;
 					$User->add($info);
 					$this->result[Constants::KEY_data]['RegSucceed']=constants::KEY_OK;
 					$this->result[Constants::KEY_msg]='';
