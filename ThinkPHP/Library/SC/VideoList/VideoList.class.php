@@ -63,6 +63,7 @@ class VideoList{
 			$t_sections=M('sc_les_sections');
 			$t_lessons=M('sc_les_baseinfo');
 			$tump1=$this->permissionid();
+			//dump($tump1);
 			$data_groups=$t_groups->select(); //获得分组列表
 			if($datagrouping!==false){
 				for ($i=0; $i < count($data_groups); $i++) { 
