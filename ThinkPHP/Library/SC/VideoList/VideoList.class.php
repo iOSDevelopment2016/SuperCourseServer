@@ -88,10 +88,10 @@ class VideoList{
                         	
                         }
                         //dump($data_lessions);
+                        //$data_sections[$j]['lesarr']=$data_lessions;
+                      	//$data_lessions=$t_lessons->where($condition_lessons)->select();
                         $data_sections[$j]['lesarr']=$data_lessions;
-                      	$data_lessions=$t_lessons->where($condition_lessons)->select();
-                        $data_sections[$j]['lesarr']=$data_lessions;
-                        //var_dump( $result_les_sections);
+                        //dump( $result_les_sections);
                      }
                      $data_groups[$i]['sec_arr']=$data_sections;
 				}
