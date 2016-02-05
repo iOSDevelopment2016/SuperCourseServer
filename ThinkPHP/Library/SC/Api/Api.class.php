@@ -38,6 +38,31 @@ class Api{
 		$result=$userReg->run();
 		echo $result;
 	}
+	public function LoadVideoInfo($param){
+		import('SC.VideoInfo.LoadVideoInfo');
+		$videoInfo=new LoadVideoInfo($param);
+		$result=$videoInfo->run();
+		echo $result;
+	}
+	public function AddStudentSubtitle($param){
+		import('SC.VideoInfo.AddStudentSubtitle');
+		$addSubtitle=new AddStudentSubtitle($param);
+		$result=$addSubtitle->run();
+		echo $result;
+	}
+	public function AddStudentStopTime($param){
+		import('SC.VideoInfo.AddStudentStopTime');
+		$AddStopTime=new AddStudentStopTime($param);
+		$result=$AddStopTime->run();
+		echo $result;
+	}
+	public function DeleteStudentSubtitle($param){
+		import('SC.VideoInfo.DeleteStudentSubtitle');
+		$DeleteSubTitle=new DeleteStudentSubtitle($param);
+		$result=$DeleteSubTitle->run();
+		echo $result;
+	}
+}
 	public function Getintroduction($param){
 		//echo "hello";
 		 import('SC.getintroduction.getintroduction');
