@@ -62,6 +62,12 @@ class Api{
 		$result=$DeleteSubTitle->run();
 		echo $result;
 	}
+	public function CheckPermission($param){
+		import('SC.VideoInfo.CheckPermission');
+		$check=new CheckPermission($param);
+		$result=$check->run();
+		echo $result;
+	}
 
 	public function Getintroduction($param){
 		//echo "hello";
