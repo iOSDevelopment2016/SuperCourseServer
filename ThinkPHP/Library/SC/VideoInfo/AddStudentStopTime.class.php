@@ -52,7 +52,6 @@ class AddStudentStopTime{
 		$num = 0;
 		$sc_stu_lesrecord = M('sc_stu_lesrecord');
 		$cond['stu_id']=$this->stu_id;
-		$cond['les_id']=$this->lesson_id;
 		$maxNum=$sc_stu_lesrecord->where($cond)->max('num');
 		if($maxNum>=1){
 			$num=$maxNum;	
