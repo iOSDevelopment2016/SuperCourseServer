@@ -15927,3 +15927,241 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
 
+[ 2016-02-05T19:01:27+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentNote() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_note` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sc_stu_note` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-02-05T19:01:27+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::History() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-02-05T19:01:27+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '1111'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: datagrouping /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 68 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0003'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-02-05T19:01:31+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0030s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/PlayLog/GetStudentPlayLog.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-02-05T19:01:31+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = '0001' AND `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0007s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = '0001' AND `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = null  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-02-05T19:01:34+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::CheckPermission() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '0000'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '0000' AND `authles_id` = '0003'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '0000' AND `authles_id` = '*'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-02-05T19:01:36+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::CheckPermission() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '0000' AND `authles_id` = '0003'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '0000' AND `authles_id` = '*'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-02-05T19:01:41+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0030s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/PlayLog/GetStudentPlayLog.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-02-05T19:01:41+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = '0001' AND `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0008s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = '0001' AND `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = null  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-02-05T19:01:44+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::CheckPermission() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '0000'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '0000' AND `authles_id` = '0001'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-02-05T19:01:45+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentStopTime() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0008s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+','0001','4.32981','1') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
