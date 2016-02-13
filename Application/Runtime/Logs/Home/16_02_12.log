@@ -14166,3 +14166,563 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
 
+[ 2016-02-12T23:56:19+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentNote() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_note` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `sc_stu_note` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-02-12T23:56:19+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::History() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 2 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 3 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 5 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 6 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0002'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 7 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0002'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 8 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0002'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 9 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 10 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 11 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 12 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 13 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 14 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 15 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 16 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 17 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-12T23:56:19+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '1111'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: datagrouping /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 68 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0002'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0003'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0004'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0005'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '1000'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-02-12T23:56:19+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0009s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = 18  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-02-12T23:56:22+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0005'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0005'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0005'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0005'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-02-12T23:56:24+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0006'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0006'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0006'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0006'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-02-12T23:56:26+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0007'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0007'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0007'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0007'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-02-12T23:56:29+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0005'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0005'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0005'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0005'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-02-12T23:56:30+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0004'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0004'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-02-12T23:56:45+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0008'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-02-12T23:56:54+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0009'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0009'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0009'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0009'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-02-12T23:56:57+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-02-12T23:57:04+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0008'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0008'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-02-12T23:57:06+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0009'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0009'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0009'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0009'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-02-12T23:58:17+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentNote() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_note` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sc_stu_note` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-02-12T23:58:17+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::History() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 1 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 2 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 3 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 5 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0004'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 6 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0002'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 7 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0002'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 8 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0002'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 9 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 10 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 11 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 12 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 13 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 14 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 15 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 16 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 17 /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-02-12T23:58:17+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '1111'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: datagrouping /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 68 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0002'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0003'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0004'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0005'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '1000'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-02-12T23:58:17+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0008s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = 18  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-12T23:58:21+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0009'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0009'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0009'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0009'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-02-12T23:58:30+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0005'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0005'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0005'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0005'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-02-12T23:58:33+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Getintroduction() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_exinfo` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `sc_les_preknowledge` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_pre_knowledge` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_les_eh` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_les_exinfo` WHERE `les_id` = '0007'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_preknowledge` WHERE `les_id` = '0007'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_pre_knowledge` WHERE `preknowledge_id` = '0007'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_eh` WHERE `les_id` = '0007'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-02-12T23:59:17+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = '0001' AND `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0010s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = '0001' AND `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = 18  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-02-12T23:59:18+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0029s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = 18  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-02-12T23:59:18+08:00 ] 127.0.0.1 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /Applications/XAMPP/xamppfiles/htdocs/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0009s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '83728136-3cd7-3fa0-c9f6-ff3b6cdc6428
+' AND `num` = 18  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
