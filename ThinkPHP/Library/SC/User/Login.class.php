@@ -19,6 +19,7 @@ class Login{
 		$User=M('sc_stu_info');
 		$condition ['phone'] = $this->user_phone;
 		$data=$User->where($condition)->find();
+		
 		if($data!==false){
 
 			$this->result[Constants::KEY_status]=Constants::KEY_OK;

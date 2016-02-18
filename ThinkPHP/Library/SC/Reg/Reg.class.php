@@ -18,7 +18,10 @@ class Reg{
   	}
 	function __construct($param){
 		$this->user_phone = $param['phone'];
-		$this->user_password = md5('0000'.'IOSSC');
+		$code = rand(1000,9999);
+		//$this->user_password = md5('0000'.'IOSSC');
+		self::sendSMS($code);
+		$this->user_password = md5($code.'IOSSC');
 		$this->user_stu_id=$this->uuid();
 		$this->user_stu_grouping='1111';
 		$this->result = array(
@@ -32,26 +35,58 @@ class Reg{
 		$condition ['phone'] = $this->user_phone;
 		$data=$User->where($condition)->find();
 		if($data!==false){
-			$this->result[Constants::KEY_status]=Constants::KEY_OK;
 			if($data!==null){
-					$this->result[Constants::KEY_data]['RegState']=constants::KEY_FAIL;
-					$this->result[Constants::KEY_msg]='注册失败，用户名已存在……';
-				}else{
-					$info['phone'] = $this->user_phone ;
-					$info['password'] = $this->user_password;
-					$info['stu_id'] =$this->user_stu_id;
-					$info['stugrouping_id']=$this->user_stu_grouping;
-					$User->add($info);
-					$this->result[Constants::KEY_data]['RegSucceed']=constants::KEY_OK;
-					$this->result[Constants::KEY_msg]='';
-				}
+				//老用户，更新密码
+				$newData['password']=$this->user_password;
+				$User->where($condition)->save($newData);
+			}else{
+				//新用户，新增用户账号
+				$info['phone'] = $this->user_phone ;
+				$info['password'] = $this->user_password;
+				$info['stu_id'] =$this->user_stu_id;
+				$info['stugrouping_id']=$this->user_stu_grouping;
+				$User->add($info);
+			}
+			//self::sendSMS($code);
+			$this->result[Constants::KEY_status]=Constants::KEY_OK;
+			$this->result[Constants::KEY_data]['RegSucceed']=constants::KEY_OK;
+			$this->result[Constants::KEY_msg]='';
 		}else{
 			//如果查询出错，find方法返回false
 			$this->result[Constants::KEY_status]=Constants::KEY_FAIL;
-			$this->result[Constants::KEY_msg]='错误代码：201503131248。错误信息：请求登录过程中查询数据库出错。';
+			$this->result[Constants::KEY_msg]='错误代码：201602151110。错误信息：查询数据库出错。';
 		}
 		echo json_encode($this->result);
 	}
 
+	function sendSMS($code){
+		$uid = C('SMS_UID');
+		$key = C('SMS_KEY');
+		$code = "$code";
+		$smsText="超课一次性校验码：".$code."，不要告诉别人哦！";
+		$url="http://utf8.sms.webchinese.cn/?Uid=$uid&Key=$key&smsMob=$this->user_phone&smsText=$smsText";
+		self::Get($url);
+		//var_dump($url);exit();
+
+	}
+
+	function Get($url)
+	{
+		if(function_exists('file_get_contents'))
+		{
+			$file_contents = file_get_contents($url);
+		}
+		else
+		{
+			$ch = curl_init();
+			$timeout = 5;
+			curl_setopt ($ch, CURLOPT_URL, $url);
+			curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+			$file_contents = curl_exec($ch);
+			curl_close($ch);
+		}
+		return $file_contents;
+	}
 
 }

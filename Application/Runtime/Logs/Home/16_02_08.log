@@ -1,0 +1,810 @@
+[ 2016-02-08T10:57:11+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentNote() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_note` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_note` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001789s ]
+
+[ 2016-02-08T10:57:11+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '1111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '1111'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: datagrouping /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 68 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0003'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-02-08T10:57:11+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::History() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 5 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 6 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 7 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 8 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 9 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 10 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 11 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 12 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 13 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 14 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 15 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 16 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 17 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 18 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 19 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 20 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 21 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 22 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 23 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 24 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 25 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 26 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 27 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 28 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 29 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 30 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 31 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 32 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 33 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 34 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 35 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 36 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 37 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 38 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 39 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 40 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 41 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 42 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 43 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 44 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 45 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 46 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 47 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 48 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 49 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 50 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 51 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 52 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 53 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-02-08T10:57:21+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0012s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `num` = 54  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-02-08T10:57:21+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = '0001' AND `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0006s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = '0001' AND `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `num` = 54  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-02-08T10:57:31+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentStopTime() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0004s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('43608052-dc12-0505-48ff-29e1a933abb4','0001','6.351622','55') [ RunTime:0.0275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-02-08T10:57:37+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentSubtitle() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0004s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lessubtitle` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `sc_stu_lessubtitle` (`stu_id`,`les_id`,`subtitle`,`bg_time`,`num`) VALUES ('43608052-dc12-0505-48ff-29e1a933abb4','0001','姐姐和哥哥发','6','1') [ RunTime:0.0128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-02-08T10:57:42+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentStopTime() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0006s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('43608052-dc12-0505-48ff-29e1a933abb4','0001','11.66113','56') [ RunTime:0.0127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-02-08T10:57:55+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::DeleteStudentSubtitle() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /alidata/www/default/SuperCourseServer/ThinkPHP/Library/Think/Model.class.php 第 511 行.
+SQL: DELETE FROM `sc_stu_lessubtitle` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' AND `subtitle` = '姐姐和哥哥发' AND `bg_time` = 6 [ RunTime:0.0116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-02-08T10:58:00+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentStopTime() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0080s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('43608052-dc12-0505-48ff-29e1a933abb4','0001','5.6','57') [ RunTime:0.0144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-02-08T16:34:08+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentNote() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_note` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sc_stu_note` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-02-08T16:34:08+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = '1111' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = '1111'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: datagrouping /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 68 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0003'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-02-08T16:34:08+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::History() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0024s ]
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 5 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 6 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 7 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 8 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 9 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 10 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 11 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 12 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 13 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 14 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 15 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 16 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 17 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 18 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 19 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 20 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 21 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 22 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 23 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 24 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 25 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 26 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 27 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 28 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 29 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 30 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 31 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 32 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 33 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 34 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 35 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 36 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 37 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 38 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 39 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 40 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 41 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 42 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 43 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 44 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 45 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 46 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 47 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 48 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 49 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 50 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 51 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 52 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 53 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 54 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 55 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 56 /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/History/History.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-02-08T16:34:21+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0009s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `num` = 57  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-02-08T16:34:21+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = '0001' AND `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0004s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = '0001' AND `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `num` = 57  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-02-08T16:34:56+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0006s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `num` = 57  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-02-08T16:34:56+08:00 ] 60.26.215.204 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = '0001'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = '0001' AND `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0004s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `les_id` = '0001' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = '0001' AND `stu_id` = '43608052-dc12-0505-48ff-29e1a933abb4' AND `num` = 57  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-02-08T22:26:09+08:00 ] 118.26.11.6 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::History() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = 'UnLoginUserSession'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-02-08T22:26:09+08:00 ] 118.26.11.6 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentNote() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_note` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `sc_stu_note` WHERE `stu_id` = 'UnLoginUserSession' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-02-08T22:26:10+08:00 ] 42.81.64.8 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::VideoList() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_les_grouping` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sc_les_sections` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_stu_grouping` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_sys_stulesauthgrouping` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = 'UnLoginUserSession' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc_stu_grouping` WHERE `stugrouping_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_sys_stulesauthgrouping` WHERE `lesauth_groupingid` = null  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_grouping`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: datagrouping /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoList/VideoList.class.php 第 68 行.
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0000'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0000'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_sections` WHERE `lesgrouping_id` = '0001'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `lessections_id` = '0003'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-02-08T22:26:30+08:00 ] 118.194.238.17 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Reg() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116058852' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sc_stu_info` SET `password`='7ff18a1a77b3be8b1c75a8f933f5a2fc' WHERE `phone` = '13116058852' [ RunTime:0.0252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-02-08T22:27:12+08:00 ] 118.26.11.5 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::Login() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `phone` = '13116058852' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-02-08T22:27:52+08:00 ] 118.26.11.5 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::SaveStudentNote() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_note` [ RunTime:0.0005s ]
+SQL: UPDATE `sc_stu_note` SET `note`='我的备注，哈哈哈嘎嘎嘎' WHERE `stu_id` = '0000' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-02-08T22:27:59+08:00 ] 42.81.64.8 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0006s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `num` = 28  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-02-08T22:27:59+08:00 ] 42.81.64.8 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined index: lesson_id /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = null  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = null  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = null  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = null AND `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0003s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `les_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = null AND `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `num` = null  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-02-08T22:28:08+08:00 ] 118.26.11.5 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentStopTime() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined index: lesson_id /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/AddStudentStopTime.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0004s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `les_id` = null LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1048:Column 'les_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('f93e0b50-e567-c909-cb8b-9985935feebd',NULL,'0','1')
+ERR: 1048:Column 'les_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('f93e0b50-e567-c909-cb8b-9985935feebd',NULL,'0','1')
+
+[ 2016-02-08T22:28:14+08:00 ] 42.81.64.8 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentStopTime() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined index: lesson_id /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/AddStudentStopTime.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0004s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `les_id` = null LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1048:Column 'les_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('f93e0b50-e567-c909-cb8b-9985935feebd',NULL,'0','1')
+ERR: 1048:Column 'les_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('f93e0b50-e567-c909-cb8b-9985935feebd',NULL,'0','1')
+
+[ 2016-02-08T22:28:16+08:00 ] 42.81.64.8 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::AddStudentStopTime() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined index: lesson_id /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/AddStudentStopTime.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0004s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `les_id` = null LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1048:Column 'les_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('f93e0b50-e567-c909-cb8b-9985935feebd',NULL,'0','1')
+ERR: 1048:Column 'les_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `sc_stu_lesrecord` (`stu_id`,`les_id`,`oversty_time`,`num`) VALUES ('f93e0b50-e567-c909-cb8b-9985935feebd',NULL,'0','1')
+
+[ 2016-02-08T22:29:01+08:00 ] 42.81.64.8 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::GetStudentPlayLog() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0007s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `num` = 28  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-02-08T22:29:01+08:00 ] 42.81.64.8 /SuperCourseServer/index.php/Home/Index/index4ios/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [2048] call_user_func_array() expects parameter 1 to be a valid callback, non-static method Api::LoadVideoInfo() should not be called statically /alidata/www/default/SuperCourseServer/Application/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined index: lesson_id /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `sc_stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_stu_info` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_baseinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc_les_baseinfo` WHERE `les_id` = null  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_les_hotpoint` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 36 行.
+SQL: SELECT * FROM `sc_les_hotpoint` WHERE `les_id` = null  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sc_les_subtitle` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 41 行.
+SQL: SELECT * FROM `sc_les_subtitle` WHERE `les_id` = null  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lessubtitle` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 47 行.
+SQL: SELECT * FROM `sc_stu_lessubtitle` WHERE `les_id` = null AND `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sc_stu_lesrecord` [ RunTime:0.0003s ]
+SQL: SELECT MAX(num) AS tp_max FROM `sc_stu_lesrecord` WHERE `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `les_id` = null LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant les_id - assumed 'les_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant stu_id - assumed 'stu_id' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /alidata/www/default/SuperCourseServer/ThinkPHP/Library/SC/VideoInfo/LoadVideoInfo.class.php 第 55 行.
+SQL: SELECT * FROM `sc_stu_lesrecord` WHERE `les_id` = null AND `stu_id` = 'f93e0b50-e567-c909-cb8b-9985935feebd' AND `num` = null  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+

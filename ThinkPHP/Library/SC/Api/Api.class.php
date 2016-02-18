@@ -71,7 +71,7 @@ class Api{
 
 	public function Getintroduction($param){
 		//echo "hello";
-		 import('SC.getintroduction.getintroduction');
+		 import('SC.Getintroduction.Getintroduction');
 		 $getin=new Getintroduction($param);
 		 $result=$getin->run();
 		 echo $result;

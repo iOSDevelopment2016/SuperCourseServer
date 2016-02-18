@@ -10,46 +10,56 @@ class History{
 		Constants::KEY_msg 	=>"",
 		Constants::KEY_data =>array()
 		);
-		// dump($this->stu_id);
 	}
+
+
 	public function run(){
+		$recordArr = array();
 		$sc_stu_lesrecord=M('sc_stu_lesrecord');
-		$sc_les_baseinfo=M('sc_les_baseinfo');
-		$allles_id=$sc_stu_lesrecord->distinct(true)->field('les_id')->select();
-		// dump($allles_id);
- 		for ($i=0; $i < count($allles_id); $i++) { 
- 			$nowles_id=$allles_id[$i]['les_id'];
+		$sc_les_baseinfo=M('sc_les_baseinfo'); 
+		$condition['stu_id']=$this->stu_id;
+		$allles_id=$sc_stu_lesrecord->where($condition)->distinct(true)->field('les_id')->select();
+
+ 		//获取历史信息
+ 		for ($i=0; $i < count($allles_id); $i++) 
+ 		{
  			$condition['stu_id']=$this->stu_id;
-			$condition['les_id']=$nowles_id;
-			$recorddata[$i]=$sc_stu_lesrecord->where($condition)->order('num desc')->limit(1)->select();
+			$condition['les_id']=$allles_id[$i]['les_id'];
+			$recordArr[$i]=$sc_stu_lesrecord->where($condition)->order('num desc')->limit(1)->find();
  		}
 
-		// $condition['stu_id']=$this->stuid;
-		// $condition['les_id']=$nowles_id;
-		// $recorddata=$sc_stu_lesrecord->where($condition)->order('num desc')->limit(1)->select();
-		//dump($recorddata);
-		if ($recorddata !== null) {
-			for ($i=0; $i <count($recorddata) ; $i++) { 
-			$condition1['les_id']=$allles_id[$i];
-			// dump($condition1['les_id']);
-			$data=$sc_les_baseinfo->where($condition1)->select();
-			$recorddata[$i]['les_name']=$data['les_name'];
+		//echo "<pre>";
+ 		//print_r($recordArr);
+		//exit();
 
-			//dump($data);
-		}
-		}
-		
-		if($recorddata!==null){
-			$this->result[Constants::KEY_status]=Constants::KEY_OK;
-			$this->result[Constants::KEY_data]['historyData']=$recorddata;	
+ 		// 获取课程名称
+ 		for ($i=0; $i < count($allles_id); $i++) 
+ 		{ 
+			$condition['les_id']=$allles_id[$i]['les_id'];
+			$recordArr[$i]['les_name'] = $sc_les_baseinfo
+ 			->where($condition)
+ 			->getField('les_name');
+ 			// array_push($recordArr[$i],$less_name);
+ 		}
+
+ 		//echo "<pre>";
+ 		//print_r($recordArr);exit();
+
+		if ($recordArr !== false) {
+
+			if ($recordArr !== null) {
+				$this->result[Constants::KEY_status]=Constants::KEY_OK;
+				$this->result[Constants::KEY_data]['historyData']=$recordArr;
+			}else{
+				$this->result[Constants::KEY_status]=Constants::KEY_FAIL;
+				$this->result[Constants::KEY_msg]='登陆后查看历史记录';
+			}
+
 		}else{
-			$this->result[Constants::KEY_status]=constants::KEY_FAIL;
-			$this->result[Constants::KEY_msg]='登陆后查看历史记录';
-		}	
-
-		
+			$this->result[Constants::KEY_status]=Constants::KEY_FAIL;
+			$this->result[Constants::KEY_msg]='错误代码：201503131248。错误信息：请求登录过程中查询数据库出错。';
+		}
 		echo json_encode($this->result,JSON_UNESCAPED_UNICODE);
-		// dump($this->result);
 	}
 
 
